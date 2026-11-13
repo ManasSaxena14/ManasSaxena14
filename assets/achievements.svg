@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="236" viewBox="0 0 1000 236" role="img" aria-label="Achievements and leadership">
+<title>Achievements and leadership</title>
+<defs><filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style><![CDATA[
+  .k { font: 700 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; }
+  .tt { font: 800 20px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #e6f1ff; }
+  .dd { font: 400 13px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #8a96b8; }
+  .tile { animation: up .8s cubic-bezier(.2,.8,.2,1) both; }
+  .hex { animation: pulse 2.6s ease-in-out infinite; }
+  .sw { stroke-dasharray: 80 920; animation: sw 7s linear infinite; }
+  @keyframes up { from {opacity:0;transform:translateY(12px)} to {opacity:1;transform:none} }
+  @keyframes pulse { 0%,100% {fill-opacity:.06;stroke-opacity:1} 50% {fill-opacity:.22;stroke-opacity:.5} }
+  @keyframes sw { from {stroke-dashoffset:0} to {stroke-dashoffset:-1000} }
+]]></style>
+<g class="tile" style="animation-delay:0.00s">
+  <rect x="1" y="1" width="490" height="112" rx="12" fill="#0a0a18" stroke="#1d1d3a"/>
+  <rect x="1" y="1" width="490" height="112" rx="12" fill="none" stroke="#ffe66d" stroke-width="2" pathLength="1000" class="sw" style="animation-delay:-0.0s"/>
+  <polygon class="hex" points="54.0,27.0 80.0,42.0 80.0,72.0 54.0,87.0 28.0,72.0 28.0,42.0" fill="#ffe66d" fill-opacity=".08" stroke="#ffe66d" stroke-width="2" filter="url(#g)" style="animation-delay:-0.0s"/>
+  <text x="54" y="64.2" text-anchor="middle" style="font:900 20px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#ffe66d">20</text>
+  <text class="k" x="104" y="36" fill="#ffe66d">TOP 20 · ALL-INDIA</text>
+  <text class="tt" x="104" y="64">Cars24 Car-a-thon 2026</text>
+  <text class="dd" x="104" y="88">PIT-24: a 24-second car-cleaning line, 3D-simulated</text>
+</g><g class="tile" style="animation-delay:0.18s">
+  <rect x="509" y="1" width="490" height="112" rx="12" fill="#0a0a18" stroke="#1d1d3a"/>
+  <rect x="509" y="1" width="490" height="112" rx="12" fill="none" stroke="#00f0ff" stroke-width="2" pathLength="1000" class="sw" style="animation-delay:-1.4s"/>
+  <polygon class="hex" points="562.0,27.0 588.0,42.0 588.0,72.0 562.0,87.0 536.0,72.0 536.0,42.0" fill="#00f0ff" fill-opacity=".08" stroke="#00f0ff" stroke-width="2" filter="url(#g)" style="animation-delay:-0.7s"/>
+  <text x="562" y="64.2" text-anchor="middle" style="font:900 20px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#00f0ff">YT</text>
+  <text class="k" x="612" y="36" fill="#00f0ff">EMERGING TALENT</text>
+  <text class="tt" x="612" y="64">Naukri Young Turks 2025</text>
+  <text class="dd" x="612" y="88">Recognised in a nationwide contest for college students</text>
+</g><g class="tile" style="animation-delay:0.36s">
+  <rect x="1" y="123" width="490" height="112" rx="12" fill="#0a0a18" stroke="#1d1d3a"/>
+  <rect x="1" y="123" width="490" height="112" rx="12" fill="none" stroke="#ff2bd6" stroke-width="2" pathLength="1000" class="sw" style="animation-delay:-2.8s"/>
+  <polygon class="hex" points="54.0,149.0 80.0,164.0 80.0,194.0 54.0,209.0 28.0,194.0 28.0,164.0" fill="#ff2bd6" fill-opacity=".08" stroke="#ff2bd6" stroke-width="2" filter="url(#g)" style="animation-delay:-1.4s"/>
+  <text x="54" y="186.2" text-anchor="middle" style="font:900 20px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#ff2bd6">VP</text>
+  <text class="k" x="104" y="158" fill="#ff2bd6">VICE PRESIDENT</text>
+  <text class="tt" x="104" y="186">Finance Club</text>
+  <text class="dd" x="104" y="210">FinSetu India–US collab · Zerodha-partnered quiz</text>
+</g><g class="tile" style="animation-delay:0.54s">
+  <rect x="509" y="123" width="490" height="112" rx="12" fill="#0a0a18" stroke="#1d1d3a"/>
+  <rect x="509" y="123" width="490" height="112" rx="12" fill="none" stroke="#39ff14" stroke-width="2" pathLength="1000" class="sw" style="animation-delay:-4.2s"/>
+  <polygon class="hex" points="562.0,149.0 588.0,164.0 588.0,194.0 562.0,209.0 536.0,194.0 536.0,164.0" fill="#39ff14" fill-opacity=".08" stroke="#39ff14" stroke-width="2" filter="url(#g)" style="animation-delay:-2.1s"/>
+  <text x="562" y="184.8" text-anchor="middle" style="font:900 16px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#39ff14">OPS</text>
+  <text class="k" x="612" y="158" fill="#39ff14">OPERATIONS HEAD</text>
+  <text class="tt" x="612" y="186">Esports Club</text>
+  <text class="dd" x="612" y="210">Logistics &amp; scheduling for campus tournaments</text>
+</g>
+</svg>

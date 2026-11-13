@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="58" viewBox="0 0 1000 58" role="img" aria-label="WINS_AND_ROLES">
+<title>WINS_AND_ROLES</title>
+<defs>
+  <linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#39ff14"/><stop offset="1" stop-color="#39ff14" stop-opacity="0"/></linearGradient>
+  <linearGradient id="comet" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+  <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style><![CDATA[
+  .lbl { font: 800 26px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 3px; fill: #e6f1ff; }
+  .idx { font: 700 12px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #39ff14; }
+  .cur { animation: b 1s steps(1) infinite; }
+  .comet { animation: c 3.2s cubic-bezier(.6,0,.4,1) infinite; }
+  .in { animation: in .9s cubic-bezier(.2,.8,.2,1) both; }
+  .gl { animation: gl 5s steps(1) infinite; }
+  @keyframes b { 0%,100% {opacity:1} 50% {opacity:0} }
+  @keyframes c { from {transform:translateX(365px);opacity:0} 10% {opacity:1} 90% {opacity:1} to {transform:translateX(940px);opacity:0} }
+  @keyframes in { from {opacity:0;transform:translateX(-18px)} to {opacity:1;transform:none} }
+  @keyframes gl { 0%,90%,100% {transform:none;opacity:0} 91% {transform:translate(-3px,0);opacity:.85} 93% {transform:translate(3px,1px);opacity:.85} 95% {opacity:0} }
+]]></style>
+<g class="in">
+  <text class="idx" x="2" y="14">0x05</text>
+  <text class="lbl" x="0" y="44" filter="url(#g)" textLength="313" lengthAdjust="spacingAndGlyphs"><tspan fill="#39ff14">&gt;_ </tspan>WINS_AND_ROLES</text>
+  <text class="lbl gl" x="0" y="44" fill="#ff2bd6" opacity="0" textLength="313" lengthAdjust="spacingAndGlyphs"><tspan>&gt;_ </tspan>WINS_AND_ROLES</text>
+  <rect class="cur" x="323" y="24" width="12" height="24" fill="#39ff14"/>
+</g>
+<line x1="365" y1="36" x2="1000" y2="36" stroke="url(#ln)" stroke-width="2" opacity=".7"/>
+<g class="comet"><rect x="-60" y="34.5" width="60" height="3" rx="1.5" fill="url(#comet)" filter="url(#g)"/></g>
+</svg>

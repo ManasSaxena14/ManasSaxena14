@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="292" viewBox="0 0 500 292" role="img" aria-label="ORBYT — Self-hosted OpenAI-compatible LLM gateway">
+<title>ORBYT — Self-hosted OpenAI-compatible LLM gateway</title>
+<defs>
+  <clipPath id="clip-orbyt"><rect x="1" y="1" width="498" height="290" rx="14"/></clipPath>
+  <radialGradient id="rg-orbyt" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#00f0ff" stop-opacity=".22"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="rg2-orbyt" cx="0" cy="1" r=".8"><stop offset="0" stop-color="#ff2bd6" stop-opacity=".12"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sb-orbyt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity="0"/><stop offset=".5" stop-color="#00f0ff" stop-opacity=".09"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></linearGradient>
+  <pattern id="grid-orbyt" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  <filter id="g-orbyt" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style><![CDATA[
+  .tag { font: 700 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #00f0ff; }
+  .ti { font: 900 30px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 2px; fill: #e6f1ff; }
+  .st { font: 600 14px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #c9d1ff; }
+  .d { font: 400 13px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #8a96b8; }
+  .mn { font: 800 22px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+  .ml { font: 500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #8a96b8; letter-spacing: .5px; }
+  .pl { font: 600 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #c9d1ff; }
+  .chip { font: 700 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #39ff14; }
+  .sweep1 { stroke-dasharray: 110 890; animation: sw 6s linear infinite; }
+  .sweep2 { stroke-dasharray: 60 940; animation: sw 6s linear infinite; animation-delay: -3s; }
+  .scan { animation: scan 4.5s linear infinite; }
+  .m { animation: up .7s cubic-bezier(.2,.8,.2,1) both; }
+  .mbar { transform-box: fill-box; transform-origin: left; animation: grow 1s cubic-bezier(.2,.8,.2,1) both; }
+  .dot { animation: blink 1.4s ease-in-out infinite; }
+  .ring { transform-box: fill-box; transform-origin: center; animation: ring 1.8s ease-out infinite; }
+  .gl { animation: gl 6s steps(1) infinite; }
+  .br { animation: br 3s ease-in-out infinite; }
+  @keyframes sw { from {stroke-dashoffset:0} to {stroke-dashoffset:-1000} }
+  @keyframes scan { from {transform:translateY(-70px)} to {transform:translateY(302px)} }
+  @keyframes up { from {opacity:0;transform:translateY(10px)} to {opacity:1;transform:none} }
+  @keyframes grow { from {transform:scaleX(0)} to {transform:scaleX(1)} }
+  @keyframes blink { 0%,100% {opacity:1} 50% {opacity:.3} }
+  @keyframes ring { from {transform:scale(1);opacity:.8} to {transform:scale(3);opacity:0} }
+  @keyframes gl { 0%,92%,100% {opacity:0;transform:none} 93% {opacity:.8;transform:translate(-4px,0)} 95% {opacity:.8;transform:translate(3px,1px)} 97% {opacity:0} }
+  @keyframes br { 0%,100% {opacity:.9} 50% {opacity:.35} }
+]]></style>
+<g clip-path="url(#clip-orbyt)">
+  <rect width="500" height="292" fill="#0a0a18"/>
+  <rect width="500" height="292" fill="url(#grid-orbyt)"/>
+  <rect width="500" height="292" fill="url(#rg-orbyt)"/><rect width="500" height="292" fill="url(#rg2-orbyt)"/>
+  <rect class="scan" width="500" height="70" fill="url(#sb-orbyt)"/>
+  <text class="tag" x="24" y="36">05 // LLM INFRASTRUCTURE</text>
+  <g>
+    <rect x="410.0" y="21" width="66.0" height="22" rx="11" fill="#0d1f12" stroke="#39ff14" stroke-opacity=".5"/>
+    <circle class="ring" cx="423.0" cy="32" r="3.5" fill="none" stroke="#39ff14"/>
+    <circle class="dot" cx="423.0" cy="32" r="3.5" fill="#39ff14"/>
+    <text class="chip" x="433.0" y="36">LIVE</text>
+  </g>
+  <text class="ti" x="24" y="80" filter="url(#g-orbyt)">ORBYT</text>
+  <text class="ti gl" x="24" y="80" style="fill:#ff2bd6">ORBYT</text>
+  <text class="st" x="24" y="104">Self-hosted OpenAI-compatible LLM gateway</text>
+  <text class="d" x="24" y="130">Drop-in /v1/chat/completions with fallback chains, BYOK,</text><text class="d" x="24" y="148">cost + latency routing over a Redis key pool and SSE tracing.</text>
+  <g class="m" style="animation-delay:0.25s">
+    <rect x="24.0" y="166" width="144.0" height="62" rx="8" fill="#0f0f24" stroke="#1d1d3a"/>
+    <rect class="mbar" x="24.0" y="166" width="144.0" height="2" rx="1" fill="#00f0ff" style="animation-delay:0.40s"/>
+    <text class="mn" x="38.0" y="198" fill="#00f0ff">40+</text>
+    <text class="ml" x="38.0" y="217">error classes</text></g><g class="m" style="animation-delay:0.40s">
+    <rect x="178.0" y="166" width="144.0" height="62" rx="8" fill="#0f0f24" stroke="#1d1d3a"/>
+    <rect class="mbar" x="178.0" y="166" width="144.0" height="2" rx="1" fill="#00f0ff" style="animation-delay:0.55s"/>
+    <text class="mn" x="192.0" y="198" fill="#ff2bd6">5 + 7</text>
+    <text class="ml" x="192.0" y="217">apps + packages</text></g><g class="m" style="animation-delay:0.55s">
+    <rect x="332.0" y="166" width="144.0" height="62" rx="8" fill="#0f0f24" stroke="#1d1d3a"/>
+    <rect class="mbar" x="332.0" y="166" width="144.0" height="2" rx="1" fill="#00f0ff" style="animation-delay:0.70s"/>
+    <text class="mn" x="346.0" y="198" fill="#00f0ff">SSE</text>
+    <text class="ml" x="346.0" y="217">live tracing</text></g>
+  <rect x="24.0" y="244" width="93.0" height="24" rx="12" fill="none" stroke="#00f0ff" stroke-opacity=".45"/><text class="pl" x="70.5" y="260" text-anchor="middle">TypeScript</text><rect x="125.0" y="244" width="71.1" height="24" rx="12" fill="none" stroke="#00f0ff" stroke-opacity=".45"/><text class="pl" x="160.6" y="260" text-anchor="middle">Next.js</text><rect x="204.1" y="244" width="56.5" height="24" rx="12" fill="none" stroke="#00f0ff" stroke-opacity=".45"/><text class="pl" x="232.3" y="260" text-anchor="middle">Redis</text><rect x="268.6" y="244" width="63.8" height="24" rx="12" fill="none" stroke="#00f0ff" stroke-opacity=".45"/><text class="pl" x="300.5" y="260" text-anchor="middle">Prisma</text><rect x="340.4" y="244" width="93.0" height="24" rx="12" fill="none" stroke="#00f0ff" stroke-opacity=".45"/><text class="pl" x="386.9" y="260" text-anchor="middle">PostgreSQL</text>
+  <g class="br" fill="none" stroke="#00f0ff" stroke-width="2">
+    <path d="M8 26 V8 H26"/><path d="M474 284 H492 V266"/>
+  </g>
+</g>
+<rect x="1" y="1" width="498" height="290" rx="14" fill="none" stroke="#1d1d3a" stroke-width="1.5"/>
+<rect class="sweep1" x="1" y="1" width="498" height="290" rx="14" fill="none" stroke="#00f0ff" stroke-width="2.5" pathLength="1000" filter="url(#g-orbyt)"/>
+<rect class="sweep2" x="1" y="1" width="498" height="290" rx="14" fill="none" stroke="#ff2bd6" stroke-width="2" pathLength="1000" filter="url(#g-orbyt)"/>
+</svg>

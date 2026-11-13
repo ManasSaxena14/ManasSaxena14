@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="214" viewBox="0 0 500 214" role="img" aria-label="AURAROAST — Specialty-coffee commerce platform">
+<title>AURAROAST — Specialty-coffee commerce platform</title>
+<defs>
+  <clipPath id="clip-auraroast"><rect x="1" y="1" width="498" height="212" rx="14"/></clipPath>
+  <radialGradient id="rg-auraroast" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#ffe66d" stop-opacity=".22"/><stop offset="1" stop-color="#ffe66d" stop-opacity="0"/></radialGradient>
+  <radialGradient id="rg2-auraroast" cx="0" cy="1" r=".8"><stop offset="0" stop-color="#ff2bd6" stop-opacity=".12"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sb-auraroast" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe66d" stop-opacity="0"/><stop offset=".5" stop-color="#ffe66d" stop-opacity=".09"/><stop offset="1" stop-color="#ffe66d" stop-opacity="0"/></linearGradient>
+  <pattern id="grid-auraroast" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  <filter id="g-auraroast" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style><![CDATA[
+  .tag { font: 700 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #ffe66d; }
+  .ti { font: 900 30px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 2px; fill: #e6f1ff; }
+  .st { font: 600 14px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #c9d1ff; }
+  .d { font: 400 13px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #8a96b8; }
+  .mn { font: 800 22px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+  .ml { font: 500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #8a96b8; letter-spacing: .5px; }
+  .pl { font: 600 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #c9d1ff; }
+  .chip { font: 700 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #39ff14; }
+  .sweep1 { stroke-dasharray: 110 890; animation: sw 6s linear infinite; }
+  .sweep2 { stroke-dasharray: 60 940; animation: sw 6s linear infinite; animation-delay: -3s; }
+  .scan { animation: scan 4.5s linear infinite; }
+  .m { animation: up .7s cubic-bezier(.2,.8,.2,1) both; }
+  .mbar { transform-box: fill-box; transform-origin: left; animation: grow 1s cubic-bezier(.2,.8,.2,1) both; }
+  .dot { animation: blink 1.4s ease-in-out infinite; }
+  .ring { transform-box: fill-box; transform-origin: center; animation: ring 1.8s ease-out infinite; }
+  .gl { animation: gl 6s steps(1) infinite; }
+  .br { animation: br 3s ease-in-out infinite; }
+  @keyframes sw { from {stroke-dashoffset:0} to {stroke-dashoffset:-1000} }
+  @keyframes scan { from {transform:translateY(-70px)} to {transform:translateY(224px)} }
+  @keyframes up { from {opacity:0;transform:translateY(10px)} to {opacity:1;transform:none} }
+  @keyframes grow { from {transform:scaleX(0)} to {transform:scaleX(1)} }
+  @keyframes blink { 0%,100% {opacity:1} 50% {opacity:.3} }
+  @keyframes ring { from {transform:scale(1);opacity:.8} to {transform:scale(3);opacity:0} }
+  @keyframes gl { 0%,92%,100% {opacity:0;transform:none} 93% {opacity:.8;transform:translate(-4px,0)} 95% {opacity:.8;transform:translate(3px,1px)} 97% {opacity:0} }
+  @keyframes br { 0%,100% {opacity:.9} 50% {opacity:.35} }
+]]></style>
+<g clip-path="url(#clip-auraroast)">
+  <rect width="500" height="214" fill="#0a0a18"/>
+  <rect width="500" height="214" fill="url(#grid-auraroast)"/>
+  <rect width="500" height="214" fill="url(#rg-auraroast)"/><rect width="500" height="214" fill="url(#rg2-auraroast)"/>
+  <rect class="scan" width="500" height="70" fill="url(#sb-auraroast)"/>
+  <text class="tag" x="24" y="36">08 // COMMERCE + AI</text>
+  <g>
+    <rect x="410.0" y="21" width="66.0" height="22" rx="11" fill="#0d1f12" stroke="#39ff14" stroke-opacity=".5"/>
+    <circle class="ring" cx="423.0" cy="32" r="3.5" fill="none" stroke="#39ff14"/>
+    <circle class="dot" cx="423.0" cy="32" r="3.5" fill="#39ff14"/>
+    <text class="chip" x="433.0" y="36">LIVE</text>
+  </g>
+  <text class="ti" x="24" y="80" filter="url(#g-auraroast)">AURAROAST</text>
+  <text class="ti gl" x="24" y="80" style="fill:#ff2bd6">AURAROAST</text>
+  <text class="st" x="24" y="104">Specialty-coffee commerce platform</text>
+  <text class="d" x="24" y="130">Idempotent orders, atomic table booking, live delivery map,</text><text class="d" x="24" y="148">UPI payments and a tool-calling AI barista that fills your cart.</text>
+  
+  <rect x="24.0" y="166" width="71.1" height="24" rx="12" fill="none" stroke="#ffe66d" stroke-opacity=".45"/><text class="pl" x="59.5" y="182" text-anchor="middle">Next.js</text><rect x="103.1" y="166" width="71.1" height="24" rx="12" fill="none" stroke="#ffe66d" stroke-opacity=".45"/><text class="pl" x="138.6" y="182" text-anchor="middle">Drizzle</text><rect x="182.2" y="166" width="93.0" height="24" rx="12" fill="none" stroke="#ffe66d" stroke-opacity=".45"/><text class="pl" x="228.7" y="182" text-anchor="middle">PostgreSQL</text><rect x="283.2" y="166" width="78.4" height="24" rx="12" fill="none" stroke="#ffe66d" stroke-opacity=".45"/><text class="pl" x="322.4" y="182" text-anchor="middle">Three.js</text><rect x="369.6" y="166" width="49.2" height="24" rx="12" fill="none" stroke="#ffe66d" stroke-opacity=".45"/><text class="pl" x="394.2" y="182" text-anchor="middle">Groq</text>
+  <g class="br" fill="none" stroke="#ffe66d" stroke-width="2">
+    <path d="M8 26 V8 H26"/><path d="M474 206 H492 V188"/>
+  </g>
+</g>
+<rect x="1" y="1" width="498" height="212" rx="14" fill="none" stroke="#1d1d3a" stroke-width="1.5"/>
+<rect class="sweep1" x="1" y="1" width="498" height="212" rx="14" fill="none" stroke="#ffe66d" stroke-width="2.5" pathLength="1000" filter="url(#g-auraroast)"/>
+<rect class="sweep2" x="1" y="1" width="498" height="212" rx="14" fill="none" stroke="#ff2bd6" stroke-width="2" pathLength="1000" filter="url(#g-auraroast)"/>
+</svg>
