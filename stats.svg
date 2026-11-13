@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150">
+<defs><clipPath id="clip"><rect x="1" y="1" width="998" height="148" rx="14"/></clipPath>
+<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f0ff"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient>
+<filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style><![CDATA[
+.h { font: 700 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #00f0ff; }
+.fr { stroke-dasharray: 90 910; animation: fr 7s linear infinite; }
+@keyframes fr { from {stroke-dashoffset:0} to {stroke-dashoffset:-1000} }
+@keyframes up { from {opacity:0;transform:translateY(10px)} to {opacity:1;transform:none} }
+
+]]></style>
+<g clip-path="url(#clip)"><rect width="1000" height="150" fill="#0a0a18"/><rect width="1000" height="150" fill="url(#grid)"/><text class="h" x="24" y="32">// GITHUB TELEMETRY · @ManasSaxena14 · UPDATED 13 Nov 2026</text><g style="animation:up .7s 0.00s cubic-bezier(.2,.8,.2,1) both">
+<rect x="24.0" y="48" width="180.8" height="80" rx="10" fill="#0f0f24" stroke="#1d1d3a"/>
+<rect x="24.0" y="48" width="180.8" height="2" fill="#00f0ff"/>
+<text x="40.0" y="70" style="font:700 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.5px;fill:#8a96b8">CONTRIBUTIONS</text>
+<text x="40.0" y="104" style="font:800 30px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#00f0ff" filter="url(#g)">459</text>
+<text x="40.0" y="120" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8a96b8">last 12 months</text></g><g style="animation:up .7s 0.12s cubic-bezier(.2,.8,.2,1) both">
+<rect x="216.8" y="48" width="180.8" height="80" rx="10" fill="#0f0f24" stroke="#1d1d3a"/>
+<rect x="216.8" y="48" width="180.8" height="2" fill="#ff2bd6"/>
+<text x="232.8" y="70" style="font:700 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.5px;fill:#8a96b8">COMMITS</text>
+<text x="232.8" y="104" style="font:800 30px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#ff2bd6" filter="url(#g)">403</text>
+<text x="232.8" y="120" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8a96b8">last 12 months</text></g><g style="animation:up .7s 0.24s cubic-bezier(.2,.8,.2,1) both">
+<rect x="409.6" y="48" width="180.8" height="80" rx="10" fill="#0f0f24" stroke="#1d1d3a"/>
+<rect x="409.6" y="48" width="180.8" height="2" fill="#ffe66d"/>
+<text x="425.6" y="70" style="font:700 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.5px;fill:#8a96b8">PULL REQUESTS</text>
+<text x="425.6" y="104" style="font:800 30px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#ffe66d" filter="url(#g)">44</text>
+<text x="425.6" y="120" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8a96b8">all time</text></g><g style="animation:up .7s 0.36s cubic-bezier(.2,.8,.2,1) both">
+<rect x="602.4" y="48" width="180.8" height="80" rx="10" fill="#0f0f24" stroke="#1d1d3a"/>
+<rect x="602.4" y="48" width="180.8" height="2" fill="#9d4dff"/>
+<text x="618.4" y="70" style="font:700 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.5px;fill:#8a96b8">PUBLIC REPOS</text>
+<text x="618.4" y="104" style="font:800 30px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#9d4dff" filter="url(#g)">20</text>
+<text x="618.4" y="120" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8a96b8">original work</text></g><g style="animation:up .7s 0.48s cubic-bezier(.2,.8,.2,1) both">
+<rect x="795.2" y="48" width="180.8" height="80" rx="10" fill="#0f0f24" stroke="#1d1d3a"/>
+<rect x="795.2" y="48" width="180.8" height="2" fill="#39ff14"/>
+<text x="811.2" y="70" style="font:700 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.5px;fill:#8a96b8">ACTIVE DAYS</text>
+<text x="811.2" y="104" style="font:800 30px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#39ff14" filter="url(#g)">81</text>
+<text x="811.2" y="120" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8a96b8">last 12 months</text></g></g>
+<rect x="1" y="1" width="998" height="148" rx="14" fill="none" stroke="#1d1d3a" stroke-width="1.5"/>
+<rect class="fr" x="1" y="1" width="998" height="148" rx="14" fill="none" stroke="url(#edge)" stroke-width="2" pathLength="1000" filter="url(#g)"/>
+</svg>
