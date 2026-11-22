@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="44" viewBox="0 0 101 44" role="img" aria-label="Email">
+<title>Email</title>
+<defs>
+  <clipPath id="c"><rect x="1" y="1" width="99" height="42" rx="11"/></clipPath>
+  <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="top" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.06"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<style><![CDATA[
+  .l { font: 600 14px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -.1px; fill: #fafafa; }
+  .sh { animation: sh 5s 1s ease-in-out infinite; }
+  @keyframes sh { 0% {transform:translateX(0) skewX(-20deg)} 30%,100% {transform:translateX(241px) skewX(-20deg)} }
+  @media (prefers-reduced-motion: reduce) { .sh { animation: none; display: none; } }
+]]></style>
+<g clip-path="url(#c)">
+  <rect width="101" height="44" fill="#18181b"/>
+  <rect width="101" height="44" fill="url(#top)"/>
+  
+</g>
+<rect x="1" y="1" width="99" height="42" rx="11" fill="none" stroke="#3f3f46"/>
+<path d="M3 6h18v12H3zM3 7l9 6 9-6" transform="translate(18 14.0) scale(0.6666666666666666)" fill="none" stroke="#fafafa" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/><text x="44" y="27.0" class="l">Email</text>
+</svg>

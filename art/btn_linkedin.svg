@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123" height="44" viewBox="0 0 123 44" role="img" aria-label="LinkedIn">
+<title>LinkedIn</title>
+<defs>
+  <clipPath id="c"><rect x="1" y="1" width="121" height="42" rx="11"/></clipPath>
+  <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="top" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.06"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<style><![CDATA[
+  .l { font: 600 14px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -.1px; fill: #fafafa; }
+  .sh { animation: sh 5s 1s ease-in-out infinite; }
+  @keyframes sh { 0% {transform:translateX(0) skewX(-20deg)} 30%,100% {transform:translateX(263px) skewX(-20deg)} }
+  @media (prefers-reduced-motion: reduce) { .sh { animation: none; display: none; } }
+]]></style>
+<g clip-path="url(#c)">
+  <rect width="123" height="44" fill="#18181b"/>
+  <rect width="123" height="44" fill="url(#top)"/>
+  
+</g>
+<rect x="1" y="1" width="121" height="42" rx="11" fill="none" stroke="#3f3f46"/>
+<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" transform="translate(18 14.0) scale(0.6666666666666666)" fill="#fafafa"/><text x="44" y="27.0" class="l">LinkedIn</text>
+</svg>

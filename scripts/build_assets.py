@@ -11,6 +11,8 @@ Edit the DATA section below to change text, then re-run.
 import os
 from xml.sax.saxutils import escape
 
+from icons import ICONS, STROKE
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "art")
 os.makedirs(OUT, exist_ok=True)
@@ -227,6 +229,78 @@ def stack():
 {''.join(chips)}
 </svg>'''
     write("stack.svg", svg)
+
+
+# =====================================================================
+# BUTTONS (one SVG per button so each one is its own link)
+# =====================================================================
+def icon_svg(name, x, y, size, color):
+    s = size / 24
+    if name in STROKE:
+        return (f'<path d="{ICONS[name]}" transform="translate({x} {y}) scale({s})" fill="none" stroke="{color}" '
+                f'stroke-width="{2 / s * s * 1.0:.2f}" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>')
+    return f'<path d="{ICONS[name]}" transform="translate({x} {y}) scale({s})" fill="{color}"/>'
+
+
+def button(fname, label, icon=None, primary=False, trail=None, H=44):
+    tw = len(label) * 7.35
+    lead = 18 + (26 if icon else 0)
+    W = round(lead + tw + (26 if trail else 0) + 20)
+    if primary:
+        bg, fg, stroke = ACCENT, BG, ACCENT
+    else:
+        bg, fg, stroke = SURFACE_2, INK, "#3f3f46"
+    parts = []
+    if icon:
+        parts.append(icon_svg(icon, 18, (H - 16) / 2, 16, fg))
+    parts.append(f'<text x="{lead}" y="{H / 2 + 5}" class="l">{esc(label)}</text>')
+    if trail:
+        parts.append(icon_svg(trail, lead + tw + 8, (H - 14) / 2, 14, fg))
+    shine = ""
+    if primary:
+        shine = (f'<rect class="sh" x="-60" y="0" width="40" height="{H}" fill="url(#shine)" transform="skewX(-20)"/>')
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(label)}">
+<title>{esc(label)}</title>
+<defs>
+  <clipPath id="c"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="11"/></clipPath>
+  <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="top" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="{.18 if primary else .06}"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<style><![CDATA[
+  .l {{ font: 600 14px {SANS}; letter-spacing: -.1px; fill: {fg}; }}
+  .sh {{ animation: sh 5s 1s ease-in-out infinite; }}
+  @keyframes sh {{ 0% {{transform:translateX(0) skewX(-20deg)}} 30%,100% {{transform:translateX({W + 140}px) skewX(-20deg)}} }}
+  @media (prefers-reduced-motion: reduce) {{ .sh {{ animation: none; display: none; }} }}
+]]></style>
+<g clip-path="url(#c)">
+  <rect width="{W}" height="{H}" fill="{bg}"/>
+  <rect width="{W}" height="{H}" fill="url(#top)"/>
+  {shine}
+</g>
+<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="11" fill="none" stroke="{stroke}"/>
+{''.join(parts)}
+</svg>'''
+    write(f"btn_{fname}.svg", svg)
+
+
+def buttons():
+    # project actions
+    button("code", "View source", "github")
+    button("live", "Live demo", None, True, "arrow")
+    button("dashboard", "Open dashboard", "tableau", True, "arrow")
+    button("app", "Open app", "streamlit", True, "arrow")
+    # profile links
+    button("portfolio", "Portfolio", "globe", True, "arrow")
+    button("linkedin", "LinkedIn", "linkedin")
+    button("email", "Email", "mail")
+    button("leetcode", "LeetCode", "leetcode")
+    button("codeforces", "Codeforces", "codeforces")
+    button("codechef", "CodeChef", "codechef")
+    button("kaggle", "Kaggle", "kaggle")
+    # contact calls to action
+    button("cta_email", "Email me", "mail", True, "arrow")
+    button("cta_linkedin", "Connect on LinkedIn", "linkedin")
+    button("cta_portfolio", "View portfolio", "globe")
 
 
 # =====================================================================
@@ -487,3 +561,4 @@ if __name__ == "__main__":
         card(c)
     achievements()
     footer()
+    buttons()

@@ -5,13 +5,13 @@
 </a>
 
 <p align="center">
-<a href="https://manas-saxena.vercel.app"><img src="https://img.shields.io/badge/Portfolio-18181b?style=flat-square&logo=vercel&logoColor=c8f25a" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/manas-saxena-1b3b27324"><img src="https://img.shields.io/badge/LinkedIn-18181b?style=flat-square&logo=linkedin&logoColor=a1a1aa" alt="LinkedIn"/></a>
-<a href="mailto:manas.saxena2024@nst.rishihood.edu.in"><img src="https://img.shields.io/badge/Email-18181b?style=flat-square&logo=gmail&logoColor=a1a1aa" alt="Email"/></a>
-<a href="https://leetcode.com/u/Manas-14"><img src="https://img.shields.io/badge/LeetCode-18181b?style=flat-square&logo=leetcode&logoColor=a1a1aa" alt="LeetCode"/></a>
-<a href="https://codeforces.com/profile/Manas14"><img src="https://img.shields.io/badge/Codeforces-18181b?style=flat-square&logo=codeforces&logoColor=a1a1aa" alt="Codeforces"/></a>
-<a href="https://www.codechef.com/users/manas146"><img src="https://img.shields.io/badge/CodeChef-18181b?style=flat-square&logo=codechef&logoColor=a1a1aa" alt="CodeChef"/></a>
-<a href="https://www.kaggle.com/manasviveksaxena"><img src="https://img.shields.io/badge/Kaggle-18181b?style=flat-square&logo=kaggle&logoColor=a1a1aa" alt="Kaggle"/></a>
+<a href="https://manas-saxena.vercel.app"><img src="./art/btn_portfolio.svg" height="38" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/manas-saxena-1b3b27324"><img src="./art/btn_linkedin.svg" height="38" alt="LinkedIn"/></a>
+<a href="mailto:manas.saxena2024@nst.rishihood.edu.in"><img src="./art/btn_email.svg" height="38" alt="Email"/></a>
+<a href="https://leetcode.com/u/Manas-14"><img src="./art/btn_leetcode.svg" height="38" alt="LeetCode"/></a>
+<a href="https://codeforces.com/profile/Manas14"><img src="./art/btn_codeforces.svg" height="38" alt="Codeforces"/></a>
+<a href="https://www.codechef.com/users/manas146"><img src="./art/btn_codechef.svg" height="38" alt="CodeChef"/></a>
+<a href="https://www.kaggle.com/manasviveksaxena"><img src="./art/btn_kaggle.svg" height="38" alt="Kaggle"/></a>
 </p>
 
 <br/>
@@ -31,37 +31,37 @@
 <img src="./art/section_projects.svg" width="100%" alt="03 Selected work"/>
 
 <a href="https://github.com/ManasSaxena14/HireFlow"><img src="./art/card_hireflow.svg" width="100%" alt="HireFlow: two-sided hiring platform and ATS"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/HireFlow">Repository</a> &nbsp;·&nbsp; <a href="https://hire-flow-opal-five.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://hire-flow-opal-five.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/HireFlow"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/FinSight-AI-Intelligent-Financial-Forecasting-Advisory-System"><img src="./art/card_finsight.svg" width="100%" alt="FinSight AI: finance forecasting and advisory"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/FinSight-AI-Intelligent-Financial-Forecasting-Advisory-System">Repository</a> &nbsp;·&nbsp; <a href="https://finsight-ai-intelligent-financial.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://finsight-ai-intelligent-financial.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/FinSight-AI-Intelligent-Financial-Forecasting-Advisory-System"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/BIDVERSE---AUCTION-PLATFORM"><img src="./art/card_bidverse.svg" width="100%" alt="BidVerse: MERN auction marketplace"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/BIDVERSE---AUCTION-PLATFORM">Repository</a> &nbsp;·&nbsp; <a href="https://bidverse-auction-platform.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://bidverse-auction-platform.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/BIDVERSE---AUCTION-PLATFORM"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/Churnly"><img src="./art/card_churnly.svg" width="100%" alt="Churnly: agentic AI churn analysis"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/Churnly">Repository</a> &nbsp;·&nbsp; <a href="https://churnly-1.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://churnly-1.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/Churnly"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone"><img src="./art/card_orbyt.svg" width="100%" alt="Orbyt: self-hosted OpenAI-compatible LLM gateway"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone">Repository</a> &nbsp;·&nbsp; <a href="https://openrouter-clone-dashboard.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://openrouter-clone-dashboard.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/TransactionsFraudDetection_Tableau"><img src="./art/card_fraud.svg" width="100%" alt="Fraud detection analytics on 1M transactions"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/TransactionsFraudDetection_Tableau">Repository</a> &nbsp;·&nbsp; <a href="https://public.tableau.com/views/FraudDetectionAnalysis_17774564367470/FraudMonitoringDashboard">Dashboard ↗</a></p>
+<p align="center"><a href="https://public.tableau.com/views/FraudDetectionAnalysis_17774564367470/FraudMonitoringDashboard"><img src="./art/btn_dashboard.svg" height="44" alt="Open dashboard"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/TransactionsFraudDetection_Tableau"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/RHoMIS-Analytics_DataAnalysis"><img src="./art/card_rhomis.svg" width="100%" alt="RHoMIS food-security analytics"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/RHoMIS-Analytics_DataAnalysis">Repository</a> &nbsp;·&nbsp; <a href="https://public.tableau.com/views/RHoMISDASHBOARD_17774575711430/Dashboard3">Dashboard ↗</a></p>
+<p align="center"><a href="https://public.tableau.com/views/RHoMISDASHBOARD_17774575711430/Dashboard3"><img src="./art/btn_dashboard.svg" height="44" alt="Open dashboard"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/RHoMIS-Analytics_DataAnalysis"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 </tr>
 </table>
@@ -74,21 +74,21 @@
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/AuraRoast"><img src="./art/card_auraroast.svg" width="100%" alt="AuraRoast: specialty-coffee commerce"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/AuraRoast">Repository</a> &nbsp;·&nbsp; <a href="https://aura-roast-cafe.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://aura-roast-cafe.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/AuraRoast"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/AXIOM_AI--LLM-"><img src="./art/card_axiom.svg" width="100%" alt="Axiom AI: multi-model AI workspace"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/AXIOM_AI--LLM-">Repository</a> &nbsp;·&nbsp; <a href="https://axiomai-two.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://axiomai-two.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/AXIOM_AI--LLM-"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/CARTIFY-AI"><img src="./art/card_cartify.svg" width="100%" alt="Cartify AI: AI-powered e-commerce"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/CARTIFY-AI">Repository</a> &nbsp;·&nbsp; <a href="https://cartifyai-lime.vercel.app">Live demo ↗</a></p>
+<p align="center"><a href="https://cartifyai-lime.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/CARTIFY-AI"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/ManasSaxena14/TrafficFlowControl_AIML-DL_T036"><img src="./art/card_traffic.svg" width="100%" alt="Traffic flow forecasting on METR-LA"/></a>
-<p align="center"><a href="https://github.com/ManasSaxena14/TrafficFlowControl_AIML-DL_T036">Repository</a> &nbsp;·&nbsp; <a href="https://trafficflowamldl.streamlit.app">Live demo ↗</a></p>
+<p align="center"><a href="https://trafficflowamldl.streamlit.app"><img src="./art/btn_app.svg" height="44" alt="Open app"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/TrafficFlowControl_AIML-DL_T036"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 </tr>
 </table>
@@ -124,9 +124,9 @@
 <p align="center">
 Open to internships and collaborations. If you have a hard problem, I'd like to hear about it.
 <br/><br/>
-<a href="https://www.linkedin.com/in/manas-saxena-1b3b27324"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-18181b?style=flat-square&logo=linkedin&logoColor=a1a1aa" alt="LinkedIn"/></a>
-<a href="mailto:manas.saxena2024@nst.rishihood.edu.in"><img src="https://img.shields.io/badge/Send_an_email-18181b?style=flat-square&logo=gmail&logoColor=a1a1aa" alt="Email"/></a>
-<a href="https://manas-saxena.vercel.app"><img src="https://img.shields.io/badge/View_portfolio-18181b?style=flat-square&logo=vercel&logoColor=c8f25a" alt="Portfolio"/></a>
+<a href="mailto:manas.saxena2024@nst.rishihood.edu.in"><img src="./art/btn_cta_email.svg" height="44" alt="Email me"/></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/manas-saxena-1b3b27324"><img src="./art/btn_cta_linkedin.svg" height="44" alt="Connect on LinkedIn"/></a>&nbsp;&nbsp;
+<a href="https://manas-saxena.vercel.app"><img src="./art/btn_cta_portfolio.svg" height="44" alt="View portfolio"/></a>
 </p>
 
 <br/>
