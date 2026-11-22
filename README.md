@@ -5,13 +5,13 @@
 </a>
 
 <p align="center">
-<a href="https://manas-saxena.vercel.app"><img src="./art/btn_portfolio.svg" height="38" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/manas-saxena-1b3b27324"><img src="./art/btn_linkedin.svg" height="38" alt="LinkedIn"/></a>
-<a href="mailto:manas.saxena2024@nst.rishihood.edu.in"><img src="./art/btn_email.svg" height="38" alt="Email"/></a>
-<a href="https://leetcode.com/u/Manas-14"><img src="./art/btn_leetcode.svg" height="38" alt="LeetCode"/></a>
-<a href="https://codeforces.com/profile/Manas14"><img src="./art/btn_codeforces.svg" height="38" alt="Codeforces"/></a>
-<a href="https://www.codechef.com/users/manas146"><img src="./art/btn_codechef.svg" height="38" alt="CodeChef"/></a>
-<a href="https://www.kaggle.com/manasviveksaxena"><img src="./art/btn_kaggle.svg" height="38" alt="Kaggle"/></a>
+<a href="https://manas-saxena.vercel.app"><img src="./art/btn_portfolio.svg" height="32" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/manas-saxena-1b3b27324"><img src="./art/btn_linkedin.svg" height="32" alt="LinkedIn"/></a>
+<a href="mailto:manas.saxena2024@nst.rishihood.edu.in"><img src="./art/btn_email.svg" height="32" alt="Email"/></a>
+<a href="https://leetcode.com/u/Manas-14"><img src="./art/btn_leetcode.svg" height="32" alt="LeetCode"/></a>
+<a href="https://codeforces.com/profile/Manas14"><img src="./art/btn_codeforces.svg" height="32" alt="Codeforces"/></a>
+<a href="https://www.codechef.com/users/manas146"><img src="./art/btn_codechef.svg" height="32" alt="CodeChef"/></a>
+<a href="https://www.kaggle.com/manasviveksaxena"><img src="./art/btn_kaggle.svg" height="32" alt="Kaggle"/></a>
 </p>
 
 <br/>
