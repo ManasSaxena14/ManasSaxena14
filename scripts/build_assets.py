@@ -5,14 +5,14 @@ Design language matches the portfolio (manas-saxena.vercel.app): zinc neutrals,
 one lime accent, editorial type (sans + italic serif + mono labels) and calm,
 play-once motion.
 
-Run:  python3 scripts/build_assets.py      (writes into ./assets)
+Run:  python3 scripts/build_assets.py      (writes into ./art)
 Edit the DATA section below to change text, then re-run.
 """
 import os
 from xml.sax.saxutils import escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "assets")
+OUT = os.path.join(ROOT, "art")
 os.makedirs(OUT, exist_ok=True)
 
 # ---------- palette (mirrors the portfolio's globals.css tokens) ----------
@@ -177,6 +177,56 @@ def about():
 {''.join(rows)}
 </svg>'''
     write("about.svg", svg)
+
+# =====================================================================
+# STACK (monochrome, replaces the colourful icon grid)
+# =====================================================================
+STACK = [
+    ("LANGUAGES", ["TypeScript", "JavaScript", "Python", "C++", "SQL"]),
+    ("FRONTEND", ["Next.js", "React", "Tailwind CSS", "Three.js", "Vite"]),
+    ("BACKEND", ["Node.js", "NestJS", "Express", "FastAPI", "Prisma"]),
+    ("DATA & CLOUD", ["PostgreSQL", "Redis", "MongoDB", "AWS", "Docker"]),
+]
+STACK_AI = ["LangGraph", "LangChain", "RAG", "Hugging Face", "scikit-learn", "Pandas", "NumPy", "DuckDB", "Tableau"]
+
+
+def stack():
+    W = 1000
+    cw = (W - 80) / 4
+    rows = max(len(v) for _, v in STACK)
+    top = 40
+    col_h = 44 + rows * 30
+    ai_y = top + col_h + 30
+    H = ai_y + 92
+    cols = []
+    for i, (k, items) in enumerate(STACK):
+        x = 40 + i * cw
+        if i:
+            cols.append(f'<line x1="{x - 1:.1f}" y1="{top}" x2="{x - 1:.1f}" y2="{top + col_h - 10}" stroke="{LINE_SOFT}"/>')
+        pad = 0 if i == 0 else 24
+        cols.append(f'<text class="k" x="{x + pad:.1f}" y="{top + 12}">{esc(k)}</text>')
+        for j, it in enumerate(items):
+            cols.append(f'<text class="v" x="{x + pad:.1f}" y="{top + 48 + j * 30}">{esc(it)}</text>')
+    chips, px = [], 40
+    for t in STACK_AI:
+        w = len(t) * 7.4 + 26
+        chips.append(f'<rect x="{px:.1f}" y="{ai_y + 30}" width="{w:.1f}" height="28" rx="14" fill="{SURFACE_2}" stroke="{LINE}"/>'
+                     f'<text class="pl" x="{px + w / 2:.1f}" y="{ai_y + 48.5}" text-anchor="middle">{esc(t)}</text>')
+        px += w + 8
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Tech stack">
+<title>Tech stack</title>
+<style><![CDATA[
+  .k {{ font: 500 11px {MONO}; letter-spacing: 1.6px; fill: {DIM}; }}
+  .v {{ font: 400 16px {SANS}; fill: {INK_2}; }}
+  .pl {{ font: 500 12px {MONO}; fill: {SOFT}; }}
+]]></style>
+{panel(W, H)}
+{''.join(cols)}
+<line x1="40" y1="{ai_y - 8}" x2="{W - 40}" y2="{ai_y - 8}" stroke="{LINE_SOFT}"/>
+<text class="k" x="40" y="{ai_y + 16}">AI · ML · DATA</text>
+{''.join(chips)}
+</svg>'''
+    write("stack.svg", svg)
 
 
 # =====================================================================
@@ -422,6 +472,7 @@ def footer():
 if __name__ == "__main__":
     header()
     about()
+    stack()
     for slug, idx, label, note in [
         ("about", "01", "About", "WHO I AM"),
         ("stack", "02", "Stack", "TOOLS I SHIP WITH"),

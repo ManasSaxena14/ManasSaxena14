@@ -23,7 +23,10 @@ PANEL, EDGE, SOFT_EDGE, TRACK = "#111113", "#27272a", "#1e1e22", "#18181b"
 ACCENT = "#c8f25a"
 TEXT, SOFT, MUTED, DIM = "#fafafa", "#c4c4cc", "#a1a1aa", "#8b8b94"
 SANS = "'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif"
+SERIF = "'Instrument Serif', 'Iowan Old Style', Georgia, 'Times New Roman', serif"
 MONO = "'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+CARD_H = 276
+LEETCODE = os.environ.get("LEETCODE_USER", "Manas-14")
 SKIP_LANGS = {"Jupyter Notebook", "HTML", "CSS", "SCSS", "Shell", "Dockerfile", "Makefile", "Procfile", "Batchfile"}
 LANG_COLORS = [ACCENT, "#d4d4d8", "#a1a1aa", "#8b8b94", "#71717a", "#52525b"]
 
@@ -114,7 +117,7 @@ def languages_svg(u):
                 sizes[n] = sizes.get(n, 0) + e["size"]
     total = sum(sizes.values()) or 1
     top = sorted(sizes.items(), key=lambda kv: -kv[1])[:6]
-    W, H = 490, 62 + 34 * max(len(top), 1) + 10
+    W, H = 490, CARD_H
     out = ['<text class="h" x="28" y="36"><tspan>●</tspan>  TOP LANGUAGES · BY CODE SIZE</text>']
     for i, (name, s) in enumerate(top):
         pct = s / total * 100
@@ -164,9 +167,90 @@ def activity_svg(u):
     return frame(W, H, inner, css, defs)
 
 
+def streak_svg(u):
+    days = [d for w in u["contributionsCollection"]["contributionCalendar"]["weeks"] for d in w["contributionDays"]]
+    total = sum(d["contributionCount"] for d in days)
+    longest = run = 0
+    for d in days:
+        run = run + 1 if d["contributionCount"] > 0 else 0
+        longest = max(longest, run)
+    cur, i = 0, len(days) - 1
+    if i >= 0 and days[i]["contributionCount"] == 0:
+        i -= 1  # today not counted yet
+    while i >= 0 and days[i]["contributionCount"] > 0:
+        cur += 1
+        i -= 1
+    W, H = 490, CARD_H
+    # last 15 weeks as a quiet monochrome grid
+    recent = days[-105:]
+    mx = max([d["contributionCount"] for d in recent] + [1])
+    cells = []
+    for k, d in enumerate(recent):
+        c, r = divmod(k, 7)
+        v = d["contributionCount"]
+        if v == 0:
+            fill, op = "#1e1e22", 1
+        else:
+            fill, op = ACCENT, .25 + .75 * v / mx
+        cells.append(f'<rect x="{28 + c * 29.5:.1f}" y="{168 + r * 13}" width="25" height="9" rx="2" fill="{fill}" fill-opacity="{op:.2f}"/>')
+    tiles = [("CURRENT STREAK", cur, "days", ACCENT), ("LONGEST STREAK", longest, "days", TEXT), ("THIS YEAR", total, "contributions", TEXT)]
+    tw = (W - 56) / 3
+    out = ['<text class="h" x="28" y="36"><tspan>●</tspan>  CONSISTENCY</text>']
+    for i, (k, v, sub, c) in enumerate(tiles):
+        x = 28 + i * tw
+        pad = 0 if i == 0 else 18
+        if i:
+            out.append(f'<line x1="{x:.1f}" y1="62" x2="{x:.1f}" y2="136" stroke="{SOFT_EDGE}"/>')
+        out.append(f'''<text x="{x + pad:.1f}" y="100" style="font:600 32px {SANS};letter-spacing:-1px;fill:{c}">{fmt(v)}</text>
+<text x="{x + pad:.1f}" y="120" style="font:500 10px {MONO};letter-spacing:1.3px;fill:{SOFT}">{k}</text>
+<text x="{x + pad:.1f}" y="136" style="font:400 11px {SANS};fill:{DIM}">{sub}</text>''')
+    out.append(f'<line x1="28" y1="152" x2="{W - 28}" y2="152" stroke="{SOFT_EDGE}"/>')
+    out += cells
+    return frame(W, H, "".join(out))
+
+
+def leetcode():
+    q = ("query($u:String!){allQuestionsCount{difficulty count} matchedUser(username:$u)"
+         "{profile{ranking} submitStatsGlobal{acSubmissionNum{difficulty count}}}}")
+    req = urllib.request.Request("https://leetcode.com/graphql",
+                                 data=json.dumps({"query": q, "variables": {"u": LEETCODE}}).encode(),
+                                 headers={"Content-Type": "application/json", "Referer": "https://leetcode.com",
+                                          "User-Agent": "Mozilla/5.0 (profile-stats)"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)["data"]
+
+
+def leetcode_svg(d):
+    totals = {x["difficulty"]: x["count"] for x in d["allQuestionsCount"]}
+    solved = {x["difficulty"]: x["count"] for x in d["matchedUser"]["submitStatsGlobal"]["acSubmissionNum"]}
+    rank = d["matchedUser"]["profile"]["ranking"]
+    W, H = 1000, 188
+    out = [f'<text class="h" x="28" y="36"><tspan>●</tspan>  LEETCODE · @{escape(LEETCODE).upper()}</text>',
+           f'<line x1="28" y1="54" x2="{W - 28}" y2="54" stroke="{SOFT_EDGE}"/>',
+           f'<text x="28" y="122" style="font:italic 400 64px {SERIF};fill:{ACCENT}">{solved.get("All", 0)}</text>',
+           f'<text x="28" y="150" style="font:500 10.5px {MONO};letter-spacing:1.4px;fill:{SOFT}">PROBLEMS SOLVED</text>',
+           f'<text x="28" y="166" style="font:400 11px {SANS};fill:{DIM}">global rank {rank:,}</text>',
+           f'<line x1="250" y1="74" x2="250" y2="162" stroke="{SOFT_EDGE}"/>']
+    x0, bw = 282, W - 282 - 28
+    for i, k in enumerate(["Easy", "Medium", "Hard"]):
+        y = 84 + i * 32
+        a, t = solved.get(k, 0), totals.get(k, 1) or 1
+        out.append(f'''<text x="{x0}" y="{y}" style="font:500 13.5px {SANS};fill:{TEXT}">{k}</text>
+<text x="{W - 28}" y="{y}" text-anchor="end" style="font:500 12px {MONO};fill:{SOFT}">{a} <tspan fill="{DIM}">/ {t}</tspan></text>
+<rect x="{x0}" y="{y + 9}" width="{bw}" height="4" rx="2" fill="{TRACK}"/>
+<rect x="{x0}" y="{y + 9}" width="{max(bw * a / t, 4):.1f}" height="4" rx="2" fill="{ACCENT if i == 0 else LANG_COLORS[i]}"/>''')
+    return frame(W, H, "".join(out))
+
+
 if __name__ == "__main__":
     u = gql()
-    for name, fn in [("stats.svg", stats_svg), ("languages.svg", languages_svg), ("activity.svg", activity_svg)]:
+    outs = [("stats.svg", stats_svg(u)), ("languages.svg", languages_svg(u)),
+            ("streak.svg", streak_svg(u)), ("activity.svg", activity_svg(u))]
+    try:
+        outs.append(("leetcode.svg", leetcode_svg(leetcode())))
+    except Exception as e:  # LeetCode is optional; keep the rest
+        print("leetcode skipped:", e)
+    for name, svg in outs:
         with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
-            f.write(fn(u))
+            f.write(svg)
         print("wrote", os.path.join(OUT, name))
