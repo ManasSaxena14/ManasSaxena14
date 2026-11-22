@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="276" viewBox="0 0 490 276">
+<defs><clipPath id="clip"><rect x="1" y="1" width="488" height="274" rx="16"/></clipPath></defs>
+<style><![CDATA[
+.h { font: 500 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 1.6px; fill: #8b8b94; }
+.h tspan { fill: #c8f25a; }
+@keyframes up { from {opacity:0;transform:translateY(8px)} to {opacity:1;transform:none} }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+@keyframes grow { from {transform:scaleX(0)} to {transform:scaleX(1)} }
+]]></style>
+<g clip-path="url(#clip)"><rect width="490" height="276" fill="#111113"/><text class="h" x="28" y="36"><tspan>●</tspan>  TOP LANGUAGES · BY CODE SIZE</text><text x="28" y="72" style="font:500 13.5px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#fafafa">TypeScript</text>
+<text x="462" y="72" text-anchor="end" style="font:500 12px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#c4c4cc">45.7%</text>
+<rect x="28" y="80" width="434" height="4" rx="2" fill="#18181b"/>
+<rect x="28" y="80" width="198.5" height="4" rx="2" fill="#c8f25a"/><text x="28" y="106" style="font:500 13.5px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#fafafa">JavaScript</text>
+<text x="462" y="106" text-anchor="end" style="font:500 12px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#c4c4cc">28.1%</text>
+<rect x="28" y="114" width="434" height="4" rx="2" fill="#18181b"/>
+<rect x="28" y="114" width="122.1" height="4" rx="2" fill="#d4d4d8"/><text x="28" y="140" style="font:500 13.5px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#fafafa">Python</text>
+<text x="462" y="140" text-anchor="end" style="font:500 12px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#c4c4cc">26.0%</text>
+<rect x="28" y="148" width="434" height="4" rx="2" fill="#18181b"/>
+<rect x="28" y="148" width="112.9" height="4" rx="2" fill="#a1a1aa"/><text x="28" y="174" style="font:500 13.5px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#fafafa">PLpgSQL</text>
+<text x="462" y="174" text-anchor="end" style="font:500 12px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#c4c4cc">0.1%</text>
+<rect x="28" y="182" width="434" height="4" rx="2" fill="#18181b"/>
+<rect x="28" y="182" width="4.0" height="4" rx="2" fill="#8b8b94"/></g>
+<rect x=".5" y=".5" width="489" height="275" rx="16" fill="none" stroke="#27272a"/>
+</svg>

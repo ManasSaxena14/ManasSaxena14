@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160">
+<defs><clipPath id="clip"><rect x="1" y="1" width="998" height="158" rx="16"/></clipPath></defs>
+<style><![CDATA[
+.h { font: 500 11px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 1.6px; fill: #8b8b94; }
+.h tspan { fill: #c8f25a; }
+@keyframes up { from {opacity:0;transform:translateY(8px)} to {opacity:1;transform:none} }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+]]></style>
+<g clip-path="url(#clip)"><rect width="1000" height="160" fill="#111113"/><text class="h" x="28" y="36"><tspan>●</tspan>  GITHUB · @MANASSAXENA14 · UPDATED 22 Nov 2026</text><line x1="28" y1="54" x2="972" y2="54" stroke="#1e1e22"/><g>
+<text x="28.0" y="98" style="font:600 32px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;letter-spacing:-1px;fill:#c8f25a">557</text>
+<text x="28.0" y="118" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.4px;fill:#c4c4cc">CONTRIBUTIONS</text>
+<text x="28.0" y="134" style="font:400 11px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8b8b94">last 12 months</text></g><line x1="216.8" y1="70" x2="216.8" y2="136" stroke="#1e1e22"/><g>
+<text x="236.8" y="98" style="font:600 32px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;letter-spacing:-1px;fill:#fafafa">490</text>
+<text x="236.8" y="118" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.4px;fill:#c4c4cc">COMMITS</text>
+<text x="236.8" y="134" style="font:400 11px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8b8b94">last 12 months</text></g><line x1="405.6" y1="70" x2="405.6" y2="136" stroke="#1e1e22"/><g>
+<text x="425.6" y="98" style="font:600 32px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;letter-spacing:-1px;fill:#fafafa">53</text>
+<text x="425.6" y="118" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.4px;fill:#c4c4cc">PULL REQUESTS</text>
+<text x="425.6" y="134" style="font:400 11px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8b8b94">all time</text></g><line x1="594.4" y1="70" x2="594.4" y2="136" stroke="#1e1e22"/><g>
+<text x="614.4" y="98" style="font:600 32px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;letter-spacing:-1px;fill:#fafafa">21</text>
+<text x="614.4" y="118" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.4px;fill:#c4c4cc">PUBLIC REPOS</text>
+<text x="614.4" y="134" style="font:400 11px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8b8b94">original work</text></g><line x1="783.2" y1="70" x2="783.2" y2="136" stroke="#1e1e22"/><g>
+<text x="803.2" y="98" style="font:600 32px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;letter-spacing:-1px;fill:#fafafa">88</text>
+<text x="803.2" y="118" style="font:500 10.5px 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;letter-spacing:1.4px;fill:#c4c4cc">ACTIVE DAYS</text>
+<text x="803.2" y="134" style="font:400 11px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8b8b94">last 12 months</text></g></g>
+<rect x=".5" y=".5" width="999" height="159" rx="16" fill="none" stroke="#27272a"/>
+</svg>
