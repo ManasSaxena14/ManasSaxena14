@@ -1,7 +1,7 @@
 <!-- Profile README. SVGs live in ./assets (regenerate with: python3 scripts/build_assets.py) -->
 
 <a href="https://manas-saxena.vercel.app">
-  <img src="./assets/header.svg" width="100%" alt="Manas Saxena, Full-Stack and AI Engineer. B.Tech CS and AI at Newton School of Technology x Rishihood University, 2024 to 2028."/>
+  <img src="./assets/header.svg?v=2" width="100%" alt="Manas Saxena, Full-Stack and AI Engineer. B.Tech CS and AI at Newton School of Technology x Rishihood University, 2024 to 2028."/>
 </a>
 
 <p align="center">
@@ -16,13 +16,13 @@
 
 <br/>
 
-<img src="./assets/section_about.svg" width="100%" alt="01 About"/>
+<img src="./assets/section_about.svg?v=2" width="100%" alt="01 About"/>
 
-<img src="./assets/about.svg" width="100%" alt="I ship production-grade systems where correctness is measurable. Education: B.Tech CS and AI, Newton School of Technology x Rishihood University, 2024-28. I build LLM gateways, agentic AI pipelines, race-safe backends and data stories. Core stack: TypeScript, Next.js, NestJS, FastAPI, PostgreSQL, Redis, LangGraph. Open to internships and collaborations."/>
+<img src="./assets/about.svg?v=2" width="100%" alt="I ship production-grade systems where correctness is measurable. Education: B.Tech CS and AI, Newton School of Technology x Rishihood University, 2024-28. I build LLM gateways, agentic AI pipelines, race-safe backends and data stories. Core stack: TypeScript, Next.js, NestJS, FastAPI, PostgreSQL, Redis, LangGraph. Open to internships and collaborations."/>
 
 <br/><br/>
 
-<img src="./assets/section_stack.svg" width="100%" alt="02 Stack"/>
+<img src="./assets/section_stack.svg?v=2" width="100%" alt="02 Stack"/>
 
 <table width="100%">
 <tr>
@@ -56,39 +56,39 @@
 
 <br/>
 
-<img src="./assets/section_projects.svg" width="100%" alt="03 Selected work"/>
+<img src="./assets/section_projects.svg?v=2" width="100%" alt="03 Selected work"/>
 
-<a href="https://github.com/ManasSaxena14/HireFlow"><img src="./assets/card_hireflow.svg" width="100%" alt="HireFlow: two-sided hiring platform and ATS"/></a>
+<a href="https://github.com/ManasSaxena14/HireFlow"><img src="./assets/card_hireflow.svg?v=2" width="100%" alt="HireFlow: two-sided hiring platform and ATS"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/HireFlow">Repository</a> &nbsp;·&nbsp; <a href="https://hire-flow-opal-five.vercel.app">Live demo ↗</a></p>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/FinSight-AI-Intelligent-Financial-Forecasting-Advisory-System"><img src="./assets/card_finsight.svg" width="100%" alt="FinSight AI: finance forecasting and advisory"/></a>
+<a href="https://github.com/ManasSaxena14/FinSight-AI-Intelligent-Financial-Forecasting-Advisory-System"><img src="./assets/card_finsight.svg?v=2" width="100%" alt="FinSight AI: finance forecasting and advisory"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/FinSight-AI-Intelligent-Financial-Forecasting-Advisory-System">Repository</a> &nbsp;·&nbsp; <a href="https://finsight-ai-intelligent-financial.vercel.app">Live demo ↗</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/BIDVERSE---AUCTION-PLATFORM"><img src="./assets/card_bidverse.svg" width="100%" alt="BidVerse: MERN auction marketplace"/></a>
+<a href="https://github.com/ManasSaxena14/BIDVERSE---AUCTION-PLATFORM"><img src="./assets/card_bidverse.svg?v=2" width="100%" alt="BidVerse: MERN auction marketplace"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/BIDVERSE---AUCTION-PLATFORM">Repository</a> &nbsp;·&nbsp; <a href="https://bidverse-auction-platform.vercel.app">Live demo ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/Churnly"><img src="./assets/card_churnly.svg" width="100%" alt="Churnly: agentic AI churn analysis"/></a>
+<a href="https://github.com/ManasSaxena14/Churnly"><img src="./assets/card_churnly.svg?v=2" width="100%" alt="Churnly: agentic AI churn analysis"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/Churnly">Repository</a> &nbsp;·&nbsp; <a href="https://churnly-1.vercel.app">Live demo ↗</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone"><img src="./assets/card_orbyt.svg" width="100%" alt="Orbyt: self-hosted OpenAI-compatible LLM gateway"/></a>
+<a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone"><img src="./assets/card_orbyt.svg?v=2" width="100%" alt="Orbyt: self-hosted OpenAI-compatible LLM gateway"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone">Repository</a> &nbsp;·&nbsp; <a href="https://openrouter-clone-dashboard.vercel.app">Live demo ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/TransactionsFraudDetection_Tableau"><img src="./assets/card_fraud.svg" width="100%" alt="Fraud detection analytics on 1M transactions"/></a>
+<a href="https://github.com/ManasSaxena14/TransactionsFraudDetection_Tableau"><img src="./assets/card_fraud.svg?v=2" width="100%" alt="Fraud detection analytics on 1M transactions"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/TransactionsFraudDetection_Tableau">Repository</a> &nbsp;·&nbsp; <a href="https://public.tableau.com/views/FraudDetectionAnalysis_17774564367470/FraudMonitoringDashboard">Dashboard ↗</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/RHoMIS-Analytics_DataAnalysis"><img src="./assets/card_rhomis.svg" width="100%" alt="RHoMIS food-security analytics"/></a>
+<a href="https://github.com/ManasSaxena14/RHoMIS-Analytics_DataAnalysis"><img src="./assets/card_rhomis.svg?v=2" width="100%" alt="RHoMIS food-security analytics"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/RHoMIS-Analytics_DataAnalysis">Repository</a> &nbsp;·&nbsp; <a href="https://public.tableau.com/views/RHoMISDASHBOARD_17774575711430/Dashboard3">Dashboard ↗</a></p>
 </td>
 </tr>
@@ -96,26 +96,26 @@
 
 <br/>
 
-<img src="./assets/section_lab.svg" width="100%" alt="04 More projects"/>
+<img src="./assets/section_lab.svg?v=2" width="100%" alt="04 More projects"/>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/AuraRoast"><img src="./assets/card_auraroast.svg" width="100%" alt="AuraRoast: specialty-coffee commerce"/></a>
+<a href="https://github.com/ManasSaxena14/AuraRoast"><img src="./assets/card_auraroast.svg?v=2" width="100%" alt="AuraRoast: specialty-coffee commerce"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/AuraRoast">Repository</a> &nbsp;·&nbsp; <a href="https://aura-roast-cafe.vercel.app">Live demo ↗</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/AXIOM_AI--LLM-"><img src="./assets/card_axiom.svg" width="100%" alt="Axiom AI: multi-model AI workspace"/></a>
+<a href="https://github.com/ManasSaxena14/AXIOM_AI--LLM-"><img src="./assets/card_axiom.svg?v=2" width="100%" alt="Axiom AI: multi-model AI workspace"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/AXIOM_AI--LLM-">Repository</a> &nbsp;·&nbsp; <a href="https://axiomai-two.vercel.app">Live demo ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/CARTIFY-AI"><img src="./assets/card_cartify.svg" width="100%" alt="Cartify AI: AI-powered e-commerce"/></a>
+<a href="https://github.com/ManasSaxena14/CARTIFY-AI"><img src="./assets/card_cartify.svg?v=2" width="100%" alt="Cartify AI: AI-powered e-commerce"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/CARTIFY-AI">Repository</a> &nbsp;·&nbsp; <a href="https://cartifyai-lime.vercel.app">Live demo ↗</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/TrafficFlowControl_AIML-DL_T036"><img src="./assets/card_traffic.svg" width="100%" alt="Traffic flow forecasting on METR-LA"/></a>
+<a href="https://github.com/ManasSaxena14/TrafficFlowControl_AIML-DL_T036"><img src="./assets/card_traffic.svg?v=2" width="100%" alt="Traffic flow forecasting on METR-LA"/></a>
 <p align="center"><a href="https://github.com/ManasSaxena14/TrafficFlowControl_AIML-DL_T036">Repository</a> &nbsp;·&nbsp; <a href="https://trafficflowamldl.streamlit.app">Live demo ↗</a></p>
 </td>
 </tr>
@@ -123,31 +123,31 @@
 
 <br/>
 
-<img src="./assets/section_achievements.svg" width="100%" alt="05 Recognition"/>
+<img src="./assets/section_achievements.svg?v=2" width="100%" alt="05 Recognition"/>
 
-<img src="./assets/achievements.svg" width="100%" alt="Top 20 all-India at Cars24 Car-a-thon 2026; Naukri Young Turks 2025 Emerging Talent; Vice President, Finance Club; Operations Head, Esports Club"/>
+<img src="./assets/achievements.svg?v=2" width="100%" alt="Top 20 all-India at Cars24 Car-a-thon 2026; Naukri Young Turks 2025 Emerging Talent; Vice President, Finance Club; Operations Head, Esports Club"/>
 
 <br/><br/>
 
-<img src="./assets/section_stats.svg" width="100%" alt="06 GitHub activity"/>
+<img src="./assets/section_stats.svg?v=2" width="100%" alt="06 GitHub activity"/>
 
 <!-- stats.svg / languages.svg / activity.svg are generated by .github/workflows/profile.yml (scripts/build_stats.py) -->
-<img width="100%" src="https://raw.githubusercontent.com/ManasSaxena14/ManasSaxena14/output/stats.svg" alt="GitHub stats"/>
+<img width="100%" src="https://raw.githubusercontent.com/ManasSaxena14/ManasSaxena14/output/stats.svg?v=2" alt="GitHub stats"/>
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><img width="100%" src="https://raw.githubusercontent.com/ManasSaxena14/ManasSaxena14/output/languages.svg" alt="Top languages"/></td>
+<td width="50%" valign="top"><img width="100%" src="https://raw.githubusercontent.com/ManasSaxena14/ManasSaxena14/output/languages.svg?v=2" alt="Top languages"/></td>
 <td width="50%" valign="top"><img width="100%" src="https://streak-stats.demolab.com?user=ManasSaxena14&background=111113&border=27272a&stroke=27272a&ring=c8f25a&fire=c8f25a&currStreakNum=fafafa&sideNums=fafafa&currStreakLabel=c8f25a&sideLabels=a1a1aa&dates=8b8b94&border_radius=16" alt="Contribution streak"/></td>
 </tr>
 </table>
 
-<img width="100%" src="https://raw.githubusercontent.com/ManasSaxena14/ManasSaxena14/output/activity.svg" alt="Contribution activity, last 60 days"/>
+<img width="100%" src="https://raw.githubusercontent.com/ManasSaxena14/ManasSaxena14/output/activity.svg?v=2" alt="Contribution activity, last 60 days"/>
 
 <a href="https://leetcode.com/u/Manas-14"><img width="100%" src="https://leetcard.jacoblin.cool/Manas-14?theme=dark&font=Inter&ext=heatmap&colors=111113,18181b,fafafa,a1a1aa,c8f25a,d4d4d8,a1a1aa,71717a&border=0&radius=16&width=1000" alt="LeetCode stats"/></a>
 
 <br/><br/>
 
-<img src="./assets/section_connect.svg" width="100%" alt="07 Contact"/>
+<img src="./assets/section_connect.svg?v=2" width="100%" alt="07 Contact"/>
 
 <p align="center">
 Open to internships and collaborations. If you have a hard problem, I'd like to hear about it.
@@ -159,4 +159,4 @@ Open to internships and collaborations. If you have a hard problem, I'd like to 
 
 <br/>
 
-<img src="./assets/footer.svg" width="100%" alt="Make it work, make it right, make it fast, then write the test that proves it."/>
+<img src="./assets/footer.svg?v=2" width="100%" alt="Make it work, make it right, make it fast, then write the test that proves it."/>
