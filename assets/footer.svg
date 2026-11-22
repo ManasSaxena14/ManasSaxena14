@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="96" viewBox="0 0 1000 96" role="img" aria-label="Manas Saxena">
+<title>Manas Saxena</title>
+<style><![CDATA[
+  @keyframes up { from {opacity:0;transform:translateY(8px)} to {opacity:1;transform:none} }@keyframes fade { from {opacity:0} to {opacity:1} }@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  .q { font: italic 400 22px 'Instrument Serif', 'Iowan Old Style', Georgia, 'Times New Roman', serif; fill: #c4c4cc; }
+  .meta { font: 500 11px 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 1.6px; fill: #8b8b94; }
+  @keyframes grow { from {transform:scaleX(0)} to {transform:scaleX(1)} }
+]]></style>
+<line class="ln" x1="0" y1="12" x2="1000" y2="12" stroke="#27272a"/>
+<circle cx="500.0" cy="12" r="3.5" fill="#c8f25a"/>
+<text class="q" x="500.0" y="54" text-anchor="middle">Make it work, make it right, make it fast — then write the test that proves it.</text>
+<text class="meta" x="500.0" y="84" text-anchor="middle">MANAS SAXENA <tspan fill="#5f5f68">·</tspan> FULL-STACK &amp; AI ENGINEER <tspan fill="#5f5f68">·</tspan> INDIA</text>
+</svg>

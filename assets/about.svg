@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="424" viewBox="0 0 1000 424" role="img" aria-label="About Manas Saxena">
+<title>About · Manas Saxena</title>
+<style><![CDATA[
+  @keyframes up { from {opacity:0;transform:translateY(8px)} to {opacity:1;transform:none} }@keyframes fade { from {opacity:0} to {opacity:1} }@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  .lead { font: 500 26px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -.4px; fill: #fafafa; }
+  .lead2 { font: 400 26px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -.4px; fill: #a1a1aa; }
+  .it { font-family: 'Instrument Serif', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 400; font-size: 29px; }
+  .k { font: 500 11px 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 1.6px; fill: #8b8b94; }
+  .v { font: 400 15px 'Inter', 'Geist', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e4e4e7; }
+]]></style>
+<rect x=".5" y=".5" width="999" height="423" rx="16" fill="#111113" stroke="#27272a"/>
+<text class="lead" x="40" y="62">I ship production-grade systems where <tspan class="it" fill="#c8f25a">correctness</tspan> is measurable —</text>
+<text class="lead2" x="40" y="98">race-safe, load-tested and covered by the tests that prove it.</text>
+<g >
+  <line x1="40" y1="132" x2="960" y2="132" stroke="#1e1e22"/>
+  <text class="k" x="40" y="159">EDUCATION</text>
+  <text class="v" x="220" y="159">B.Tech Computer Science &amp; AI · Newton School of Technology × Rishihood University · 2024–28</text></g><g >
+  <line x1="40" y1="176" x2="960" y2="176" stroke="#1e1e22"/>
+  <text class="k" x="40" y="203">I BUILD</text>
+  <text class="v" x="220" y="203">LLM gateways · agentic AI pipelines · race-safe backends · data stories</text></g><g >
+  <line x1="40" y1="220" x2="960" y2="220" stroke="#1e1e22"/>
+  <text class="k" x="40" y="247">CORE STACK</text>
+  <text class="v" x="220" y="247">TypeScript · Next.js · NestJS · FastAPI · PostgreSQL · Redis · LangGraph</text></g><g >
+  <line x1="40" y1="264" x2="960" y2="264" stroke="#1e1e22"/>
+  <text class="k" x="40" y="291">I CARE ABOUT</text>
+  <text class="v" x="220" y="291">Concurrency, correctness, test coverage and p95 latency</text></g><g >
+  <line x1="40" y1="308" x2="960" y2="308" stroke="#1e1e22"/>
+  <text class="k" x="40" y="335">OFF KEYBOARD</text>
+  <text class="v" x="220" y="335">Vice President, Finance Club (FinSetu India–US) · Operations Head, Esports Club</text></g><g >
+  <line x1="40" y1="352" x2="960" y2="352" stroke="#1e1e22"/>
+  <text class="k" x="40" y="379">OPEN TO</text>
+  <text class="v" x="220" y="379">Internships · collaborations · hard engineering problems</text></g>
+</svg>
