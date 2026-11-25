@@ -50,7 +50,7 @@
 <p align="center"><a href="https://churnly-1.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/Churnly"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone"><img src="./art/card_orbyt.svg" width="100%" alt="Orbyt: self-hosted OpenAI-compatible LLM gateway"/></a>
+<a href="https://github.com/ManasSaxena14/Orbyt_Openrouter-clone.git"><img src="./art/card_orbyt.svg" width="100%" alt="Orbyt: self-hosted OpenAI-compatible LLM gateway"/></a>
 <p align="center"><a href="https://openrouter-clone-dashboard.vercel.app"><img src="./art/btn_live.svg" height="44" alt="Live demo"/></a>&nbsp;&nbsp;<a href="https://github.com/ManasSaxena14/ORBYT--openrouter-clone"><img src="./art/btn_code.svg" height="44" alt="View source"/></a></p>
 </td>
 </tr>
